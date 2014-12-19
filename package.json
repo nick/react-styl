@@ -1,0 +1,28 @@
+{
+  "name": "react-styl",
+  "version": "0.0.1",
+  "description": "Keep CSS with your ReactJS component definitions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nick/react-styl"
+  },
+  "keywords": [
+    "reactjs",
+    "styl",
+    "css"
+  ],
+  "author": "Nick Poulden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nick/react-styl/issues"
+  },
+  "homepage": "https://github.com/nick/react-styl",
+  "dependencies": {
+    "strip-indent": "^1.0.0",
+    "styl": "^0.2.8"
+  }
+}
