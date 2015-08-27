@@ -21,4 +21,8 @@ module.exports.addStylesheet = function() {
     }
 
     document.head.appendChild(style);
-}
+};
+
+module.exports.getCss = function() {
+    return styl(_styles, { whitespace: true }).toString();
+};
