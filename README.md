@@ -44,7 +44,7 @@ That's it! But how does it work? Here's the (slimmed down) code for the react-st
     }
 
     module.exports.addStylesheet = function() {
-        var styleTag = document.createElement('style');
+        var style = document.createElement('style');
         style.type = 'text/css';
         style.appendChild(document.createTextNode(_styles));
         document.head.appendChild(style);
